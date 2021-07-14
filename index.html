@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
+    <!-- <link rel="stylesheet" href="./styles/main.css"> -->
     <title>Panda-Aja!</title>
 </head>
 <body>
-    <h1>Panda-Aja</h1>
+    <h1>Panda-Aja!</h1>
     <textarea id="textAreaSpeech" class="output" name="text" cols="30" rows="10"></textarea>
+    <textarea id="translatedAreaSpeech" class="output2" name="text" cols="30" rows="10" disabled></textarea>
+    <select id="selectLanguageDropdown">
+        <option id="ko" value="ko">Korean</option>
+        <option id="es" value="es">Spanish</option>
+        <option id="en" value="en">English</option>
+        <option id="ja" value="ja">Japanese</option>
+    </select>
+
     <button id="speakButton">Speak</button>
     <button id="listenButton">Listen</button>
+    <button id="listenToAnswerButton">Click to test yourself</button>
 
 
     <script type="module" src="./scripts/main.js"></script>
-    
 </body>
 </html>
