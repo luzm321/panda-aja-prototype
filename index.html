@@ -12,10 +12,14 @@
     <textarea id="textAreaSpeech" class="output" name="text" cols="30" rows="10"></textarea>
     <textarea id="translatedAreaSpeech" class="output2" name="text" cols="30" rows="10" disabled></textarea>
     <select id="selectLanguageDropdown">
-        <option id="ko" value="ko">Korean</option>
-        <option id="es" value="es">Spanish</option>
-        <option id="en" value="en">English</option>
-        <option id="ja" value="ja">Japanese</option>
+        <!-- transliteration code for Korean: -->
+        <option value="ko--Kore">Korean</option> 
+        <!-- transliteration code for Spanish: -->
+        <option value="es--Latn">Spanish</option>
+        <!-- transliteration code for English: -->
+        <option value="en--Latn">English</option>
+        <!-- transliteration code for Japanese: -->
+        <option value="ja--Jpan">Japanese</option>
     </select>
 
     <button id="speakButton">Speak</button>
