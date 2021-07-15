@@ -2,7 +2,7 @@
 
 This is a prototype app to test my Front-End Capstone Proposal idea (Panda-Aja!) of creating a Korean language learning application with React, JSON server database, and external web APIs (e.g., Web Speech API for speech recognition/stt and speech synthesis/tts features and Microsoft Translator Text for real-time text translation).
 
-This app should be served in conjunction with the panda-aja-proxy-server (the repo for the proxy can be found in my github repositories). The proxy server should be hosted on the port: localhost 3000 (type in terminal: node server.js -p 3000 -w) in order for API fetch calls to work.
+This app should be served in conjunction with the panda-aja-proxy-server (repository link for the proxy: https://github.com/luzm321/panda-aja-proxy-server). The proxy server should be hosted on the port: localhost 3000 (type in terminal: node server.js -p 3000 -w) in order for API fetch calls to work.
 
 # How To Use The Application:
 
